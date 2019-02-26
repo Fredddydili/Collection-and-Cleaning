@@ -4,111 +4,32 @@ author: "Freddy Li"
 date: "February 25, 2019"
 output: html_document
 ---
-# **Code Book**
-
+***
 ## Variables Description
 ### Factors
-_  'Subject': The ID for each volunteer. There are 30 volunteers in the experients
-_  'Activity': The type of activities performed during the experiments. There are 6 activities totally.
+* Subject: The ID for each volunteer. There are 30 volunteers in the experients  
+* Activity: The type of activities performed during the experiments. There are 6 activities totally.  
 
 ### Measures:
-The measures just include all the mean and standard variation data.The total measures are 76.
-_ tBodyAccmeanX
-_ tBodyAccmeanY
-_ tBodyAccmeanZ
-_ tBodyAccSTDX
-_ tBodyAccSTDY
-_ tBodyAccSTDZ
-_ tGravityAccmeanX
-_ tGravityAccmeanY
-_ tGravityAccmeanZ
-_ tGravityAccSTDX
-_ tGravityAccSTDY
-_ tGravityAccSTDZ
-_ tBodyAccJerkmeanX
-_ tBodyAccJerkmeanY
-_ tBodyAccJerkmeanZ
-_ tBodyAccJerkSTDX
-_ tBodyAccJerkSTDY
-_ tBodyAccJerkSTDZ
-_ tBodyGyromeanX
-_ tBodyGyromeanY
-_ tBodyGyromeanZ
-_ tBodyGyroSTDX
-_ tBodyGyroSTDY
-_ tBodyGyroSTDZ
-_ tBodyGyroJerkmeanX
-_ tBodyGyroJerkmeanY
-_ tBodyGyroJerkmeanZ
-_ tBodyGyroJerkSTDX
-_ tBodyGyroJerkSTDY
-_ tBodyGyroJerkSTDZ
-_ tBodyAccMagmean
-_ tBodyAccMagSTD
-_ tGravityAccMagmean
-_ tGravityAccMagSTD
-_ tBodyAccJerkMagmean
-_ tBodyAccJerkMagSTD
-_ tBodyGyroMagmean
-_ tBodyGyroMagSTD
-_ tBodyGyroJerkMagmean
-_ tBodyGyroJerkMagSTD
-_ fBodyAccmeanX
-_ fBodyAccmeanY
-_ fBodyAccmeanZ
-_ fBodyAccSTDX
-_ fBodyAccSTDY
-_ fBodyAccSTDZ
-_ fBodyAccmeanFreqX
-_ fBodyAccmeanFreqY
-_ fBodyAccmeanFreqZ
-_ fBodyAccJerkmeanX
-_ fBodyAccJerkmeanY
-_ fBodyAccJerkmeanZ
-_ fBodyAccJerkSTDX
-_ fBodyAccJerkSTDY
-_ fBodyAccJerkSTDZ
-_ fBodyAccJerkmeanFreqX
-_ fBodyAccJerkmeanFreqY
-_ fBodyAccJerkmeanFreqZ
-_ fBodyGyromeanX
-_ fBodyGyromeanY
-_ fBodyGyromeanZ
-_ fBodyGyroSTDX
-_ fBodyGyroSTDY
-_ fBodyGyroSTDZ
-_ fBodyGyromeanFreqX
-_ fBodyGyromeanFreqY
-_ fBodyGyromeanFreqZ
-_ fBodyAccMagmean
-_ fBodyAccMagSTD
-_ fBodyAccMagmeanFreq
-_ fBodyBodyAccJerkMagmean
-_ fBodyBodyAccJerkMagSTD
-_ fBodyBodyAccJerkMagmeanFreq
-_ fBodyBodyGyroMagmean
-_ fBodyBodyGyroMagSTD
-_ fBodyBodyGyroMagmeanFreq
-_ fBodyBodyGyroJerkMagmean
-_ fBodyBodyGyroJerkMagSTD
-_ fBodyBodyGyroJerkMagmeanFreq
+The measures just include all the mean and standard variation data.The total measures are 76.  
+
 
 ### Activities
-_  'WALKING'
-_  'WALKING_UPSTAIRS'
-_  'WALKING_DOWNSTAIRS'
-_  'SITTING'
-_  'STANDING'
-_  'LAYING'
+* 'WALKING'  
+* 'WALKING_UPSTAIRS'  
+* 'WALKING_DOWNSTAIRS'  
+* 'SITTING'  
+* 'STANDING'  
+* 'LAYING'  
 
 ## Data
-_  There are 2947 observations in the testing set.
-_  There are 7352 observations in the training set.
-_  The final tidy data has 561 observations and 81 variables totally to show up all the average of each measure variable for each activity and each subject.
+* There are 2947 observations in the testing set.  
+* There are 7352 observations in the training set.  
+* The final tidy data has 561 observations and 81 variables totally to show up all the average of each measure variable for each activity and each subject.  
 
 ## Transformation
-_  The original activities labels have been converted into character type.
-_  The measures are matched to select just mean and standard deviation measures.
-_  The names of measures have been deleted '-' and '()'.
-_  The 'mean' and 'std' in the names of measures have been changed into 'Mean' and 'STD'.
+* The original activities labels have been converted into character type.  
+* The measures are matched to select just mean and standard deviation measures.  
+* The names of measures have been deleted '-' and '()'.  
+* The 'mean' and 'std' in the names of measures have been changed into 'Mean' and 'STD'.  
 
